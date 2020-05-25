@@ -1,0 +1,20 @@
+﻿ruletype,ruletext
+game-objective,as much points as possible in set number of turns
+game-objective,"kill everyone (last survivor, free for all)"
+game-objective,survive npc zombie assault
+game-objective,reach x points first
+game-mechanic-strategy,custom-card
+game-mechanic-strategy,poker-deck
+game-mechanic-strategy,flip-coin
+game-mechanic-strategy,roll-dice
+game-mechanic-strategy,spell-words-for-points
+game-mechanic-strategy,move around world map
+game-mechanic-strategy,character stats
+game-mechanic-strategy,pvp fight
+custom-card,nothing interesting happened
+custom-card,encounter town
+custom-card,encounter fight
+custom-card,encounter item
+custom-card,encounter healer
+custom-card,encounter temporary shop
+custom-card,get extra action points
