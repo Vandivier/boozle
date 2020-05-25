@@ -1,0 +1,54 @@
+jess attack->5, def 2, hp 2,money 0
+
+john attack 3, def 6, hp 2, money 1
+
+jess encountered the town Yamaha.
+  Outpost (lvl 1 -> cheap inn, sketchy dudes, basic general store)
+  Single-faction of unknown faction
+  Investable
+
+John get extra action points
+  Encountered level 6 item -> staff with a jewel...it's a sapphire staff
+  Another action point
+  Encounter level 2 item -> a cypher
+
+
+Jess encountered the town X-TA-C
+  It's full of lizard people
+  It's a level 2 -> medium inn with a bar, farm folk, general store, small smithy
+  Double-faction: Lizard loyalists known
+
+John encountered a temporary shop
+  It's a brewha cicilian witch person (gypsy)
+  She has a snake with her
+  She is headed north to a town
+
+Jess asked farm for a job
+  Roll 3 -> they will agree to give 3 money for a full turn
+
+John encountered level 1 fight
+  It appears to be a moving tumbleweed
+  First turn John remembers he has no magic
+  Swing staff at tumbleweed (roll 0 -> miss)
+  Tumbleweed rolls at John (rolls 4 -> 1 dmg)
+  Swing staff at tumbleweed (1 -> hit, .5 dmg)
+  Tumbleweed rolls at John(rolls 3 -> .5 dmg)
+  Swing staff at tumbleweed (1 -> hit, .5 dmg)
+  Tumbleweed dead, John collects carcass
+
+Jess gets 3 money
+  encounter level 1 temp shop
+  jess buys health potion for 1 point
+  depressed middle-aged failed wizard apprentice drinks his own mystery potion and passes out
+
+John encoountered level 0 fight
+  It appears to be a scarecrow that can't even move
+  John swings staff w roll 1 (.5 damage)
+  scarecrow does nothing
+  John swing staff w roll 3, 2 dmg, wins
+  John takes scarecrow hat and wears it (1 def)
+
+Jess encountered level 4 item
+  It appears to be a steel chestplate (3 def)
+  
+

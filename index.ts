@@ -45,26 +45,15 @@ export function CSVToArray(strData: string, strDelimiter?: string): string[][] {
   return arrData;
 }
 
-// TODO: parameterize data folder so it's not assuming current working dir
-// TODO: script input arg regex to make this more flexible
-// export function fGetInputFileLocations(fileTypeSuffix: string) {
-//   const sDataFolderPath = ;
-
-//   return fs
-//     .readdirSync(path.join(__dirname, "."))
-//     .find((sFileName) => sFileName.endsWith(fileTypeSuffix));
-// }
-
 const main = async () => {
   const sFile = fs
     .readdirSync(path.join(__dirname, "."))
-    .find((sFileName) => sFileName.endsWith(".csv"));
+    .find((sFileName) => sFileName.endsWith("current-game.csv"));
   const csvContent = await fpReadFile(sFile, "utf8");
   const parsedCsvCardRows = CSVToArray(csvContent).filter(
     (arrs) => arrs[0]?.trim() === "custom-card"
   );
 
-  console.log(csvContent);
   const iRandomDraw = Math.floor(Math.random() * parsedCsvCardRows.length);
   console.log(
     "you randomly drew::",
