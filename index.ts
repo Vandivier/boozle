@@ -2,6 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as util from "util";
 
+const customAction = "random-event";
 const fpReadFile = util.promisify(fs.readFile);
 
 // ref: https://stackoverflow.com/questions/1293147/javascript-code-to-parse-csv-data
@@ -48,13 +49,13 @@ export function CSVToArray(strData: string, strDelimiter?: string): string[][] {
 const main = async () => {
   const sFile = fs
     .readdirSync(path.join(__dirname, "."))
-    .find((sFileName) => sFileName.endsWith("current-game.csv"));
+    .find((sFileName) => sFileName.endsWith("game-current-rules.csv"));
   const csvContent = await fpReadFile(sFile, "utf8");
   const parsedCsvCardRows = CSVToArray(csvContent).filter(
-    (arrs) => arrs[0]?.trim() === "custom-card"
+    (arrs) => arrs[0]?.trim() === customAction
   );
 
-  const iRandomDraw = Math.floor(Math.random() * parsedCsvCardRows.length);
+  const iRandomDraw = Math.ceil(Math.random() * parsedCsvCardRows.length);
   console.log(
     "you randomly drew::",
     iRandomDraw,
